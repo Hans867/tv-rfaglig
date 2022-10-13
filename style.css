@@ -1,7 +1,9 @@
 body {
     display: flex;
     justify-content: center;
-    background-color: rgba(248, 169, 102, 0.9);
+    background-image: url("scarobaby.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 h1 {
@@ -11,15 +13,29 @@ h1 {
 
 p {
     text-align: center;
+    font-size: 20px;
     font-family: "Arial Black";
 }
 
-#TotalSalesCountry{
-    border-style: dotted;
-    border-width: medium;
+#OrdrePerCountry{
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 2px
 }
 
-#OrdrePerCountry{
-    border-style: dotted;
-    border-width: medium;
+#TotalSalesCountry{
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 2px
+}
+
+
+#map {
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 2px
+}
+
+#textMap {
+    color: white;
 }
